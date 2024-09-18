@@ -1,0 +1,22 @@
+# Ignore the virtual environment
+venv/
+
+# Ignore environment variables file
+.env
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore log files and other unnecessary artifacts
+*.log
+*.sqlite3
+*.db
+
+# Ignore Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
