@@ -90,7 +90,6 @@ def detect_objects():
         return jsonify({"error": str(e)}), 500
 
 @app.route('/search', methods=['POST'])
-@cross_origin(origins="https://chefmate.netlify.app")
 def search_recipes(): # Function to search for recipes
     data = request.get_json() 
     ingredient = data.get('recipe_name') # Get the ingredient name from the JSON data
